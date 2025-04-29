@@ -1,0 +1,33 @@
+{
+  "name": "barstock_api",
+  "version": "1.0.0",
+  "description": "Database to track stock",
+  "keywords": [],
+  "homepage": "https://github.com/amaliehausmann/BarStock_API#readme",
+  "bugs": {
+    "url": "https://github.com/amaliehausmann/BarStock_API/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amaliehausmann/BarStock_API.git"
+  },
+  "license": "ISC",
+  "author": "Amalie M. Hausmann",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "csvparser": "^0.1.4",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "fs": "^0.0.1-security",
+    "jsonwebtoken": "^9.0.2",
+    "mysql2": "^3.14.1",
+    "nodemon": "^3.1.10",
+    "path": "^0.12.7",
+    "sequelize": "^6.37.7"
+  }
+}
